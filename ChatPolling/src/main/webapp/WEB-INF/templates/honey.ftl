@@ -22,6 +22,6 @@
         <td>Description: ${honeys.description}</td>
         <td>Price: ${honeys.cost} RUB. <br></td>
     </tr>
-    <button><a href="http://localhost:8080/honey/add"class="nubex">Add Honey</a></button>
 </#list>
+    <button><a href="http://localhost:8080/honey/add"class="nubex">Add Honey</a></button>
 </body>
