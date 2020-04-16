@@ -32,6 +32,11 @@
         }
     </script>
 </head>
+<style type="text/css">
+    A {
+        text-decoration: none;
+    }
+</style>
 <body>
 <div>
     <input type="file" id="file" name="file" placeholder="File name"/>
@@ -45,6 +50,7 @@
 <#if check??>
     ${check}
 </#if>
-
+<br>
+<button><a href="http://localhost:8080/honey/" text-decoration="none" class="nubex">Add Honey</a></button>
 </body>
 </html>
