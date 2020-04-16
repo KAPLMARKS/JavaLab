@@ -51,6 +51,6 @@
     ${check}
 </#if>
 <br>
-<button><a href="http://localhost:8080/honey/" text-decoration="none" class="nubex">Add Honey</a></button>
+<button><a href="http://localhost:8080/honey/" text-decoration="none" class="nubex">Honey</a></button>
 </body>
 </html>
