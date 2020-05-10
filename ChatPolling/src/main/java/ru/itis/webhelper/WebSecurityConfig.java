@@ -84,7 +84,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
             http.authorizeRequests()
                     .antMatchers("/signIn", "/signUp", "/confirm", "/")
                     .permitAll()
-                    .antMatchers("/files", "/honey/**")
+                    .antMatchers("/files", "/honey/**", "/chat", "/messages")
                     .authenticated();
 
             http.formLogin().loginPage("/signIn")

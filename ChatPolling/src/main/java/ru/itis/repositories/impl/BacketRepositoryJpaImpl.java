@@ -2,6 +2,7 @@ package ru.itis.repositories.impl;
 
 import org.springframework.stereotype.Component;
 import ru.itis.models.Backet;
+import ru.itis.models.Message;
 import ru.itis.repositories.BacketRepository;
 
 import javax.persistence.EntityManager;

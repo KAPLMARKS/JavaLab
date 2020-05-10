@@ -8,8 +8,10 @@ import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.stereotype.Component;
 import ru.itis.models.FileInfo;
+import ru.itis.models.Message;
 import ru.itis.repositories.FilesRepository;
 
+import java.io.File;
 import java.sql.PreparedStatement;
 import java.util.List;
 import java.util.Optional;

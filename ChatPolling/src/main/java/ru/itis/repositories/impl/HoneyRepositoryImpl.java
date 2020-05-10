@@ -8,6 +8,7 @@ import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.stereotype.Component;
 import ru.itis.models.Honey;
+import ru.itis.models.Message;
 import ru.itis.repositories.HoneyRepository;
 
 import java.sql.PreparedStatement;
