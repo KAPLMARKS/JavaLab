@@ -10,6 +10,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.orm.jpa.JpaTransactionManager;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.orm.jpa.vendor.Database;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
@@ -31,6 +32,7 @@ import java.util.concurrent.Executors;
 @ComponentScan(basePackages = "ru.itis")
 @EnableAspectJAutoProxy
 @EnableTransactionManagement
+@EnableJpaRepositories(basePackages = "ru.itis.repositories.impl")
 @PropertySource("classpath:application.properties")
 public class ApplicationContext {
 
